@@ -1,0 +1,12 @@
+cd .\spark\spark-2.4.4-bin-hadoop2.7\bin
+pyspark
+
+from pyspark.sql.types import IntegerType
+
+raw=spark.read.csv(r"D:\arcos_all_washpost.tsv", sep="\t", header=True)
+
+columns_to_drop = ['Product_Name', 'REPORTER_DEA_NO','BUYER_DEA_NO', 'UNIT', 'ACTION_INDICATOR', 'ORDER_FORM_NO', 'CORRECTION_NO', 'STRENGTH', 'TRANSACTION_CODE','REPORTER_ADDL_CO_INFO', 'REPORTER_ADDRESS1','REPORTER_ADDRESS2', 'REPORTER_CITY', 'REPORTER_ZIP', 'REPORTER_COUNTY', 'BUYER_ADDL_CO_INFO', 'BUYER_ADDRESS1', 'BUYER_ADDRESS2', 'BUYER_CITY', 'BUYER_ZIP', 'BUYER_COUNTY']
+raw=raw.select([column for column in raw.columns if column not in columns_to_drop])
+
+raw=raw.withColumn("year", raw.TRANSACTION_DATE.cast(IntegerType())%10000)
+raw=raw.filter(raw.year>=2010)
