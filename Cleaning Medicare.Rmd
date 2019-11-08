@@ -1,0 +1,45 @@
+---
+title: "Medicare Utilization"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Finishing up Medicare Utilization Cleaning
+
+## Reading in yearly opioid data produced from python notebook
+```{r}
+df_2015 <- read.csv("medicare_opioids_2015.csv")
+df_2016 <- read.csv("medicare_opioids_2016.csv")
+df_2017 <- read.csv("medicare_opioids_2017.csv")
+```
+
+## Creating state and population column
+```{r}
+df_2015$state <- df_2015$nppes_provider_state
+df_2016$state <- df_2016$nppes_provider_state
+df_2017$state <- df_2017$nppes_provider_state
+df_2015$population <- df_2015$POPESTIMATE2015
+df_2016$population <- df_2016$POPESTIMATE2016
+df_2017$population <- df_2017$POPESTIMATE2017
+```
+
+## Dropping initial, year population, and nppes provider state columns
+```{r}
+opioid_2015 <- subset(df_2015, select = -c(INITIAL, nppes_provider_state, POPESTIMATE2015))
+opioid_2016 <- subset(df_2016, select = -c(INITIAL, nppes_provider_state, POPESTIMATE2016))
+opioid_2017 <- subset(df_2017, select = -c(INITIAL, nppes_provider_state, POPESTIMATE2017))
+```
+
+## Combine 3 dataframes into one with all years
+```{r}
+opioid_all <- rbind(opioid_2015,opioid_2016,opioid_2017)
+```
+
+## Write new csv
+```{r}
+write.csv(opioid_all,'medicare_opioids_all.csv', row.names = FALSE)
+```
+
