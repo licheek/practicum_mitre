@@ -29,6 +29,8 @@
 
 [Mortality Dataset - Model](https://github.com/martimsilva/practicum_mitre/blob/master/Mort2017_EDA_Final.ipynb)
 
+<hr>
 
 **R Markdown**
+
 [Medicare - Cleaning 2.0](https://github.com/martimsilva/practicum_mitre/blob/master/Cleaning%20Medicare.Rmd)
