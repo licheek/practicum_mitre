@@ -1,8 +1,12 @@
 # GW MSBA Practicum - MITRE - Opioid Research
 
+<hr>
+
 **Data Source (S3 Bucket)**
 
 https://s3.console.aws.amazon.com/s3/buckets/practicum-mitre/?region=us-east-1&tab=overview
+
+<hr>
 
 **Tableau Dashboards**
 
