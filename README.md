@@ -21,8 +21,6 @@
 
 [Medicare - Cleaning 1.0](https://github.com/martimsilva/practicum_mitre/blob/master/Cleaning%20Medicare%20Dataset.ipynb)
 
-[Medicare - Cleaning 2.0](https://github.com/martimsilva/practicum_mitre/blob/master/Cleaning%20Medicare.Rmd)
-
 [Medicaid - Cleaning](https://github.com/martimsilva/practicum_mitre/blob/master/Medicaid_Cleaning.ipynb)
 
 [DEA - Cleaning](https://github.com/martimsilva/practicum_mitre/blob/master/dea-sample.ipynb)
@@ -30,3 +28,7 @@
 [DEA - Spark](https://github.com/martimsilva/practicum_mitre/blob/master/dea_spark_code_filtering.txt)
 
 [Mortality Dataset - Model](https://github.com/martimsilva/practicum_mitre/blob/master/Mort2017_EDA_Final.ipynb)
+
+
+**R Markdown**
+[Medicare - Cleaning 2.0](https://github.com/martimsilva/practicum_mitre/blob/master/Cleaning%20Medicare.Rmd)
