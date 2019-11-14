@@ -8,5 +8,6 @@ Tableau Dashboards
 
 [URL] In Progress
 
-Mortality Dataset - Model
-https://github.com/martimsilva/practicum_mitre/blob/master/Mort2017_EDA_Final.ipynb
+*Python Notebooks*
+[Mortality Dataset - Model](https://github.com/martimsilva/practicum_mitre/blob/master/Mort2017_EDA_Final.ipynb
+
