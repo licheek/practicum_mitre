@@ -34,3 +34,7 @@
 **R Markdown**
 
 [Medicare - Cleaning 2.0](https://github.com/martimsilva/practicum_mitre/blob/master/Cleaning%20Medicare.Rmd)
+
+<hr>
+
+[Download Codee](https://github.com/martimsilva/practicum_mitre/archive/master.zip)
