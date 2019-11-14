@@ -37,4 +37,4 @@
 
 <hr>
 
-[Download Codee](https://github.com/martimsilva/practicum_mitre/archive/master.zip)
+[Download Packaged Code](https://github.com/martimsilva/practicum_mitre/archive/master.zip)
