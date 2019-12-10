@@ -21,16 +21,17 @@ This code cleans the Medicare Utilization and Payment data and makes three csvs,
 
 [Medicaid - Cleaning](https://github.com/martimsilva/practicum_mitre/blob/master/Medicaid_Cleaning.ipynb)
 
-This dataset is the data cleaning process for the 2015-2017 Medicaid data. 
+This code is the data cleaning process for the 2015-2017 Medicaid data. 
 (Report section 4.5, 6.3, 7.3)
 
 [DEA - Cleaning](https://github.com/martimsilva/practicum_mitre/blob/master/dea-sample.ipynb)
 
-This dataset is a data cleaning process on a sample of DEA data. 
+This code is a data cleaning process on a sample of DEA data. 
 (Report section 4.6, 6.4, 7.4)
 
 [DEA - Spark](https://github.com/martimsilva/practicum_mitre/blob/master/dea_spark_code_filtering.txt)
 
+This code is the actual PySpark code used for preprocessing for DEA data.
 (Report section 4.6, 6.4, 7.4)
 
 [Mortality Dataset - Model](https://github.com/martimsilva/practicum_mitre/blob/master/Mort2017_EDA_Final.ipynb)
