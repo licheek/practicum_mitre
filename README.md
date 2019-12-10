@@ -17,7 +17,7 @@
 
 [Medicaid - Cleaning](https://github.com/martimsilva/practicum_mitre/blob/master/Medicaid_Cleaning.ipynb)
 
-This data set is the data cleaning process for 2015-2017 Medicaid data.
+This file is the data cleaning process for 2015-2017 Medicaid data.
 
 [DEA - Cleaning](https://github.com/martimsilva/practicum_mitre/blob/master/dea-sample.ipynb)
 
