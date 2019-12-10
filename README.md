@@ -17,7 +17,7 @@
 
 [Medicaid - Cleaning](https://github.com/martimsilva/practicum_mitre/blob/master/Medicaid_Cleaning.ipynb)
 
-This data set is the data cleaning process for 2015-2017 Medicaid data.
+This dataset is the data cleaning process Medicaid data. This utilizes the 2015-2017 Medicaid data, Drug data, and Census data.
 
 [DEA - Cleaning](https://github.com/martimsilva/practicum_mitre/blob/master/dea-sample.ipynb)
 
@@ -26,7 +26,6 @@ This dataset is a data cleaning process on a sample of DEA data.
 [DEA - Spark](https://github.com/martimsilva/practicum_mitre/blob/master/dea_spark_code_filtering.txt)
 
 [Mortality Dataset - Model](https://github.com/martimsilva/practicum_mitre/blob/master/Mort2017_EDA_Final.ipynb)
-We mainly built our prediction models based on the mortality dataset (mort2017.csv). This jupyter notebook contains the entire process of data cleanning, exploratory data analysis, and all the models we have applied to make the future prediciton. (Report section 7.5~7.6)
 
 <hr>
 
