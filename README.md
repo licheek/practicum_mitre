@@ -18,7 +18,8 @@
 [Medicaid - Cleaning](https://github.com/martimsilva/practicum_mitre/blob/master/Medicaid_Cleaning.ipynb)
 
 [DEA - Cleaning](https://github.com/martimsilva/practicum_mitre/blob/master/dea-sample.ipynb)
-  This dataset is a data cleaning process on a sample of DEA data. 
+
+This dataset is a data cleaning process on a sample of DEA data. 
 
 [DEA - Spark](https://github.com/martimsilva/practicum_mitre/blob/master/dea_spark_code_filtering.txt)
 
